@@ -53,6 +53,14 @@ In **Apple Icon > System Preferences**:
 - Dock > Automatically hide and show the Dock
 - Accessibility > Mouse & Trackpad > Trackpad Options > Enable dragging (This allows you to double tap without releasing the second tap and drag)
 
+**Finder**
+
+Show hidden files by typing the following in the terminal:
+
+    $ defaults write com.apple.finder AppleShowAllFiles YES
+    $ killall Finder
+
+
 **Dock**
 
 I remove all apps from the dock because:
