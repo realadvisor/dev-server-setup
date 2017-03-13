@@ -53,7 +53,7 @@ In **Apple Icon > System Preferences**:
 - Dock > Automatically hide and show the Dock
 - Accessibility > Mouse & Trackpad > Trackpad Options > Enable dragging (This allows you to double tap without releasing the second tap and drag)
 
-** Dock **
+**Dock**
 
 I remove all apps from the dock because:
 
