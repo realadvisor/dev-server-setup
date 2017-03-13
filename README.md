@@ -146,6 +146,21 @@ To see what you have installed (with their version numbers):
 
     $ brew list --versions
 
+## Z
+
+Amazing tool to jump around folders.
+
+Grab a copy of the code:
+
+    $ mkdir ~/tools
+    $ cd ~/tools
+    $ git clone https://github.com/rupa/z
+
+Add it to your path by editing `~/.bash_profile` and adding this in the end:
+
+    . ~/tools/z/z.sh
+
+
 ## Consolas
 
 I really like the Consolas font for coding. Being a Microsoft (!) font, it is not installed by default. Since we're going to be looking at a lot of terminal output and code, let's install it now.
