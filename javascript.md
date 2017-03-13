@@ -4,6 +4,11 @@ Specific set-up steps if you are going to develop with these bad boys.
 
 ## Node
 
+The best way to install node on mac is through `nvm` which also lets you manage different versions of node on the same machine.
+
+Just follow the instructions over there: https://github.com/creationix/nvm
+
+
 ## ReactJS
 
 Install the two following chrome extensions:
