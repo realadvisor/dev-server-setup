@@ -1,0 +1,6 @@
+- Franz
+- Little Snitch
+- OnePassword
+- Parallels
+- Dropbox
+- Sketch
