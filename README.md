@@ -44,9 +44,21 @@ If this is a new computer, there are a couple tweaks I like to make to the Syste
 In **Apple Icon > System Preferences**:
 
 - Trackpad > Tap to click
+- Trackpad > Tracking speed > Fast (all the way to the right)
 - Keyboard > Key Repeat > Fast (all the way to the right)
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
+- Keyboard > Use F1, F2, etc. keys as standard function keys
+- Dock > Size > Small (all the way to the left)
+- Dock > Magnification (checked) > Max (all the way to the right)
 - Dock > Automatically hide and show the Dock
+- Accessibility > Mouse & Trackpad > Trackpad Options > Enable dragging (This allows you to double tap without releasing the second tap and drag)
+
+** Dock **
+
+I remove all apps from the dock because:
+
+- I always open my apps through Spotlight (cmd + space bar)
+- This way, every app in the dock is a running app
 
 ## Google Chrome
 
