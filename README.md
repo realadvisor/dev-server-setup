@@ -41,7 +41,7 @@ In **Apple Icon > System Preferences**:
 - Dock > Automatically hide and show the Dock
 - Accessibility > Mouse & Trackpad > Trackpad Options > Enable dragging (This allows you to double tap without releasing the second tap and drag)
 
-*If you don't have a US Keyboard*
+**If you don't have a US Keyboard**
 
 Repare "Move focus to next windows" (equivalent to cmd+tab but between open windows of the current application) by mapping it to cmd+whatever, whatever key being just next to your tab key.
 
