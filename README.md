@@ -82,6 +82,8 @@ In the tab **Terminal**, change the scrollback lines from 1'000 to something mor
 
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
+Download and install the consolas font, then in the **Text** > Font > Change Font chose Consolas with size 16.
+
 ## Homebrew
 
 Package managers make it so much easier to install and update applications (for Operating Systems) or libraries (for programming languages). The most popular one for OS X is [Homebrew](http://brew.sh/).
