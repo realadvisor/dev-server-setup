@@ -63,9 +63,9 @@ I remove all apps from the dock because:
 
 ## Finder
 
-View > Show path bar
-View > Show status bar
-Go > Go to folder > "/" and then drag the root (Macintosh HD) on top of the favourites
+- View > Show path bar
+- View > Show status bar
+- Go > Go to folder > "/" and then drag the root (Macintosh HD) on top of the favourites
 
 ## Google Chrome
 
