@@ -78,6 +78,8 @@ Let's just quickly change some preferences. In **iTerm > Preferences...**, under
 
 In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
 
+In the tab **Terminal**, change the scrollback lines from 1'000 to something more reasonable like 1'000'000.
+
 When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
 ## Homebrew
