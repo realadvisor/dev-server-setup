@@ -60,6 +60,12 @@ I remove all apps from the dock because:
 - I always open my apps through Spotlight (cmd + space bar)
 - This way, every app in the dock is a running app
 
+## Finder
+
+View > Show path bar
+View > Show status bar
+Go > Go to folder > "/" and then drag the root (Macintosh HD) on top of the favourites
+
 ## Google Chrome
 
 Install your favorite browser, mine happens to be Chrome.
