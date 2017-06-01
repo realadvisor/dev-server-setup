@@ -8,6 +8,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 
 - [System update](#system-update)
 - [System preferences](#system-preferences)
+- [Finder](#finder)
 - [Google Chrome](#google-chrome)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
