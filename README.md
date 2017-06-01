@@ -80,9 +80,11 @@ In the tab **Profiles**, create a new one with the "+" icon, and rename it to yo
 
 In the tab **Terminal**, change the scrollback lines from 1'000 to something more reasonable like 1'000'000.
 
-When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
+In the tab **Colors** > Colors presets > Solarized Dark.
 
-Download and install the consolas font, then in the **Text** > Font > Change Font chose Consolas with size 16.
+Download and install the consolas font, then in the tab **Text** > Font > Change Font chose Consolas with size 16.
+
+When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
 
 ## Homebrew
 
