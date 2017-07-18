@@ -250,8 +250,8 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
     
 In order to ignore system files in all of your repositories without explicitely having to add them to your projects' gitignore, you can create a global gitignore and configure git to use it:
 
-echo .DS_Store > ~/.gitignore
-git config --global core.excludesfile ~/.gitignore
+    $ echo .DS_Store > ~/.gitignore
+    $ git config --global core.excludesfile ~/.gitignore
 
 **Git LFS**
 
