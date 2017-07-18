@@ -248,7 +248,10 @@ To push code to your GitHub repositories, we're going to use the recommended HTT
 
     $ git config --global credential.helper osxkeychain
     
-**Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/master/.gitignore) file for inspiration.
+In order to ignore system files in all of your repositories without explicitely having to add them to your projects' gitignore, you can create a global gitignore and configure git to use it:
+
+echo .DS_Store > ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
 
 **Git LFS**
 
