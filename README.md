@@ -42,6 +42,7 @@ In **Apple Icon > System Preferences**:
 - Dock > Magnification (checked) > Max (all the way to the right)
 - Dock > Automatically hide and show the Dock
 - Accessibility > Mouse & Trackpad > Trackpad Options > Enable dragging (This allows you to double tap without releasing the second tap and drag)
+- Sound > Show volume in menu bar
 
 **If you don't have a US Keyboard**
 
