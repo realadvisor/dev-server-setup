@@ -68,6 +68,7 @@ I remove all apps from the dock because:
 - View > Show path bar
 - View > Show status bar
 - Go > Go to folder > "/" and then drag the root (Macintosh HD) on top of the favourites
+- Also add your home folder and your desktop to your favourites
 
 ## Google Chrome
 
