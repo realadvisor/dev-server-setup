@@ -21,6 +21,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Heroku](#heroku)
 - [Projects folder](#projects-folder)
 - [Apps](#apps)
+- [Remote Dev Machine](#remove-dev-machine)
 
 ## System update
 
@@ -426,6 +427,24 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [Evernote](https://evernote.com/): If I don't write something down, I'll forget it. As a developer, you learn so many new things every day, and technology keeps changing, it would be insane to want to keep it all in your head. So take notes, sync them to the cloud, and have them on all your devices. To be honest, I switched to [Simplenote](http://simplenote.com/) because I only take text notes, and I got tired of Evernote putting extra spaces between paragraphs when I copy & pasted into other applications. Simplenote is so much better for text notes (and it supports Markdown!). **(Both are free)**
 - [Moom](http://manytricks.com/moom/): Don't waste time resizing and moving your windows. Moom makes this very easy. **($10)**
 
+## Remote Dev Machine
 
+Visual Studio Code lets you connect to remote machines using ssh and use them as development environement. This is incredibly powerful and frankly quiet simple. Through SSH, you can edit the remote file system and run your code on the remote machine. Then, by binding to the ports, you can run your apps locally.
 
+Steps:
 
+### Set-up the remote machine
+1. Create a VM, for instance an AWS Ec2 (no pun intended)
+2. Copy your local public key to your newly created instance, either through some GUI or with `cat ~/.ssh/id_rsa.pub | ssh -i ~/Downloads/joan_m1.pem ec2-user@ec2-18-191-25-224.us-east-2.compute.amazonaws.com "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys"`
+3. SSH into the instance
+4. Install git on the remote machine `sudo apt update` `sudo apt install git-all`
+5. Install nvm curl -o- `https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
+6. Install node `nvm install node`
+7. Install yarn `npm install --global yarn`
+8. Install docker & docker compose
+
+### Connect with VS Code
+1. Install the "Remote Development" extension by Microsoft for VS Code
+2. Go to the newly created icon on the left bar
+3. Add a new SSH target
+4. Connect to your remote machine and clone your git repository through the VS Code interface
