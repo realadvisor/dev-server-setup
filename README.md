@@ -38,6 +38,7 @@ In **Apple Icon > System Preferences**:
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
 - Keyboard > Use F1, F2, etc. keys as standard function keys
 - Keyboard > Shortcuts > Move right / left a space => replace ctrl + arrows with ctrl + alt + arrows (Ctrl + arrows is super useful to jump when editing text or if you ever use Excel in a Windows VM so we better free this up again)
+- Keyboard > Press 🌐 to Show Emojis
 - Dock > Size > Small (all the way to the left)
 - Dock > Magnification (checked) > Max (all the way to the right)
 - Dock > Automatically hide and show the Dock
