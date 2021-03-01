@@ -437,7 +437,7 @@ Steps:
 1. Create a VM, for instance an AWS Ec2 (no pun intended)
 2. Copy your local public key to your newly created instance, either through some GUI or with `cat ~/.ssh/id_rsa.pub | ssh -i ~/Downloads/joan_m1.pem ec2-user@ec2-18-191-25-224.us-east-2.compute.amazonaws.com "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >>  ~/.ssh/authorized_keys"`
 3. SSH into the instance
-4. Install git on the remote machine `sudo apt update` `sudo apt install git-all`
+4. Install git on the remote machine `sudo apt update` `sudo apt install git-all` (don't forget to configure username and email)
 5. Install nvm curl -o- `https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
 6. Install node `nvm install node`
 7. Install yarn `npm install --global yarn`
