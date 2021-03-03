@@ -448,3 +448,18 @@ Steps:
 2. Go to the newly created icon on the left bar
 3. Add a new SSH target
 4. Connect to your remote machine and clone your git repository through the VS Code interface
+5. You may also want to open an existing directory, for example the root of your server `/`
+6. By default, the number of file watchers on some machines will be too low. This will manifest either by VS Code complaining "Visual Studio Code is unable to watch for file changes in this large workspace" or by your webpack/node/whatever applications not starting. Fix it by like that:
+
+"Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)#
+When you see this notification, it indicates that the VS Code file watcher is running out of handles because the workspace is large and contains many files. Before adjusting platform limits, make sure that potentially large folders, such as Python .venv, are added to the files.watcherExclude setting (more details below). The current limit can be viewed by running:
+
+`cat /proc/sys/fs/inotify/max_user_watches`
+
+The limit can be increased to its maximum by editing `/etc/sysctl.conf` (except on Arch Linux, read below) and adding this line to the end of the file:
+
+`fs.inotify.max_user_watches=524288`
+
+The new value can then be loaded in by running `sudo sysctl -p`.
+
+While 524,288 is the maximum number of files that can be watched, if you're in an environment that is particularly memory constrained, you may wish to lower the number. Each file watch takes up 1080 bytes, so assuming that all 524,288 watches are consumed, that results in an upper bound of around 540 MiB.
