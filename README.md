@@ -448,7 +448,7 @@ Steps:
 2. Go to the newly created icon on the left bar
 3. Add a new SSH target
 4. Connect to your remote machine and clone your git repository through the VS Code interface
-5. You may also want to open an existing directory, for example the root of your server `/`
+5. You may also want to open an existing directory, for example the root of your server `/`. Now you can edit all the wonderful text files that configure your Linux box with the power and convenience of VS Code.
 6. By default, the number of file watchers on some machines will be too low. This will manifest either by VS Code complaining "Visual Studio Code is unable to watch for file changes in this large workspace" or by your webpack/node/whatever applications not starting. Fix it by like that:
 
 "Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)#
@@ -463,3 +463,5 @@ The limit can be increased to its maximum by editing `/etc/sysctl.conf` (except 
 The new value can then be loaded in by running `sudo sysctl -p`.
 
 While 524,288 is the maximum number of files that can be watched, if you're in an environment that is particularly memory constrained, you may wish to lower the number. Each file watch takes up 1080 bytes, so assuming that all 524,288 watches are consumed, that results in an upper bound of around 540 MiB.
+
+7. Make sure that your docker containers can network between cross-platform them by following this tutorial: https://dev.to/natterstefan/docker-tip-how-to-get-host-s-ip-address-inside-a-docker-container-5anh
