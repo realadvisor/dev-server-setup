@@ -1,8 +1,6 @@
-# Mac OS X Dev Setup
+# Remote Dev Machine Setup
 
-This document describes how I set up my developer environment on a new MacBook or iMac. We will set up [Node](http://nodejs.org/) (JavaScript), [Python](http://www.python.org/), and [Ruby](http://www.ruby-lang.org/) environments, mainly for JavaScript and Python development. Even if you don't program in all three, it is good to have them as many command-line tools use one of them. As you read  and follow these steps, feel free to send me any feedback or comments you may have.
-
-The document assumes you are new to Mac. The steps below were tested on **OS 11.2.2 Big Sur**.
+This document describes how I set up my developer environment on a remote server to use with Visual Studio Code.
 
 If you have any comments or suggestions, feel free to give me a shout [on Twitter](https://twitter.com/nicolahery)!
 
@@ -22,6 +20,32 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Projects folder](#projects-folder)
 - [Apps](#apps)
 - [Remote Dev Machine](#remove-dev-machine)
+
+## Git
+
+Let's start by installing git with `sudo apt install git-all`
+
+## ZSH
+
+My shell of choice is `zsh`, let's start by installing it: `$ apt update && apt install zsh`
+
+## Oh My Zsh
+
+As per themselves, Oh My Zsh will not make you a 10x developer...but you may feel like one.
+
+Install with `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+Activate the following plugins by editing `~/.zshrc`:
+
+```
+plugins=(
+    dotenv # Loads env files when in a project folder
+    zsh-history-substring-search # Navigate history with up and down arrows
+    z # Jump into folders
+)
+```
+
+History substring search will need to be installed, follow the instructions here: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history-substring-search
 
 ## System update
 
