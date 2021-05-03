@@ -40,12 +40,13 @@ Activate the following plugins by editing `~/.zshrc`:
 ```
 plugins=(
     dotenv # Loads env files when in a project folder
-    zsh-history-substring-search # Navigate history with up and down arrows
+    zsh-history-substring-search # Fish-like history navigation with up and down arrows
+    zsh-autosuggestions # Fish-like autocomplete
     z # Jump into folders
 )
 ```
 
-History substring search will need to be installed, follow the instructions here: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history-substring-search
+History substring and Autocomplete will need to be installed, follow the instructions here https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/history-substring-search and here https://github.com/zsh-users/zsh-autosuggestions
 
 ## System update
 
