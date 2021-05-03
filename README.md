@@ -37,7 +37,7 @@ Install with `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmy
 
 Activate the following plugins by editing `~/.zshrc`:
 
-```
+```bash
 plugins=(
     dotenv # Loads env files when in a project folder
     zsh-history-substring-search # Fish-like history navigation with up and down arrows
